@@ -1,0 +1,25 @@
+# profile-title: 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | SNI-RU
+# profile-update-interval: 1
+# Date/Time: 2026-08-01 / 21:03 (Moscow)
+# Количество: 1
+# For more info and VPN-configs - visit: www.github.com/igareck/vpn-configs-for-russia
+
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+proxies:
+- name: 🌐 Anycast-IP | 🇩🇪 🇵🇱 [SNI-RU] sun6-21.userapi.com
+  type: vless
+  server: "\x6e\x6f\x64\x65\x2d\x74\x77\x30\x2e\x6f\x6d\x68\x76\x70\x2e\x63\x6f"
+  port: 443
+  uuid: "\x61\x38\x66\x38\x34\x31\x37\x31\x2d\x35\x66\x39\x36\x2d\x34\x35\x34\x37\x2d\x62\x36\x32\x31\x2d\x35\x39\x37\x35\x38\x66\x65\x36\x36\x38\x63\x38"
+  udp: true
+  encryption: none
+  tls: true
+  servername: "\x73\x75\x6e\x36\x2d\x32\x31\x2e\x75\x73\x65\x72\x61\x70\x69\x2e\x63\x6f\x6d"
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: jWVk2Z7eFkyDcu2xgzqX8JsPbZuCVhHUWD463Vfgazw
+    short-id: 7a5b89ecdb01f781
+  flow: xtls-rprx-vision
